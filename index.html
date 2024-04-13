@@ -3,19 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Elixir - template</title>
+    <title>Neo Voyage - Exchange</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="assets/images/logo-dark.svg" alt="Logo company">
+            <img src="assets/images/logo-dark.png" alt="Logo company">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,96 +25,95 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#hero">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#services">Experiences</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#reviews">Reviews</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
+                <a class="nav-link" href="#team">Destinations</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#blog">Blog</a>
+                <a class="nav-link" href="#blog">Programs</a>
               </li>
             </ul>
-            <a href="#" class="btn btn-brand ms-lg-3">Download</a>
+            <a href="#contact" class="btn btn-brand ms-lg-3">CONTACT NOW!</a>
           </div>
         </div>
     </nav>
 
     <!-- HERO -->
     <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
-      <div class="container">
+      <div class="container -mt-6">
         <div class="row">
           <div class="col-12">
-            <h1 class="text-uppercase text-white fw-semibold display-1">Welcome to elixir</h1>
-            <h5 class="text-white mt-3 m-4">WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</h5>
-            <div>
-              <a href="#" class="btn btn-brand me-2">Get Started</a>
-              <a href="#" class="btn btn-light ms-2">Our Portfolio</a>
+            <h1 data-aos="fade-left" class="text-uppercase text-white fw-semibold display-1">Your adventure begins here</h1>
+            <h5 class="text-white mt-3 m-4 text-uppercase" data-aos="fade-right">Embark on your journey with us. Discover the Canada's best destinations.</h5>
+            <div data-aos="fade-up" data-aos-delay="50">
+              <a href="#contact" class="btn btn-brand me-2">Get Started</a>
+              <a href="#team" class="btn btn-light ms-2">Explore Destinations</a>
             </div>
           </div>
         </div>
       </div>
-
     </section>
 
     <!-- ABOUT -->
     <section id="about" class="section-padding">
       <div class="container">
         <div class="row">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
             <div class="section-title">
               <h1 class="display-4 fw-semibold">About us</h1>
               <div class="line"></div>
-              <p>We love to craft digital experiances for brands rather than crap and m,ore lorem ipsums and do crazy skills</p>
+              <p>Providing expert guidance and comprehensive support for your Canadian journey.</p>
             </div>
           </div>
         </div>
         <div class="row justify-content-between align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-down" data-aos-delay="50">
             <img src="assets/images/about.jpg" alt="">
           </div>
-          <div class="col-lg-5">
-            <h1>About Elixir</h1>
-            <p class="mt-3 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum impedit esse illo?</p>
+          <div class="col-lg-5" data-aos="fade-down" data-aos-delay="150">
+            <h1>About Neo Voyage</h1>
+            <p class="mt-3 mb-4">At Neo Voyage, we offer expert guidance and comprehensive support to ensure your journey is tailored to your needs. From navigating visa processes to finding the perfect accommodation, we're here to make your experience seamless.</p>
             <div class="d-flex pt-4 mb-3">
               <div class="iconbox me-4">
-                <i class="ri-mail-send-fill"></i>
+                <i class="ri-suitcase-fill"></i>
               </div>
               <div>
-                <h5>We are Awesome</h5>
-                <p>Amet consectetur adipisicing elit. Praesentium nesciunt nemo aspernatur.</p>
+                <h5>Expert Guidance</h5>
+                <p>Benefit from our expertise in international travel.</p>
               </div>
             </div>
             <div class="d-flex mb-3">
               <div class="iconbox me-4">
-                <i class="ri-user-5-fill"></i>
+                <i class="ri-hand-heart-fill"></i>
               </div>
               <div>
-                <h5>We are Awesome</h5>
-                <p>Amet consectetur adipisicing elit. Praesentium nesciunt nemo aspernatur.</p>
+                <h5>Comprehensive Support</h5>
+                <p>We provide support every step of the way.</p>
               </div>
             </div>
             <div class="d-flex ">
               <div class="iconbox me-4">
-                <i class="ri-rocket-2-fill"></i>
+                <i class="ri-ruler-fill"></i>
               </div>
               <div>
-                <h5>We are Awesome</h5>
-                <p>Amet consectetur adipisicing elit. Praesentium nesciunt nemo aspernatur.</p>
+                <h5>Tailored Experiences</h5>
+                <p>Personalized experiences designed just for you.</p>
               </div>
             </div>
           </div>
@@ -124,67 +125,67 @@
     <section id="services" class="section-padding border-top">
       <div class="container">
         <div class="row">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
             <div class="section-title">
-              <h1 class="display-4 fw-semibold">Awesome Services</h1>
+              <h1 class="display-4 fw-semibold">Best exchange experience:</h1>
               <div class="line"></div>
-              <p>We love to craft digital experiances for brands rather than crap and m,ore lorem ipsums and do crazy skills</p>
+              <p>Discover excellence in exchange with Neo Voyage. Our expert team ensures personalized service, innovation, and cultural immersion for a truly tailored experience.</p>
             </div>
           </div>
         </div>
         <div class="row text-center g-4">
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150">
             <div class="service theme-shadow p-lg-5 p-4">
               <div class="iconbox">
-                <i class="ri-stack-fill"></i>
+                <i class="ri-flight-takeoff-line"></i>
               </div>
-              <h5 class="mt-4 mb-3">UX Design</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat at unde!</p>
+              <h5 class="mt-4 mb-3">Excellence in Exchange</h5>
+              <p>Our excellence ensures the best experience for you.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250">
             <div class="service theme-shadow p-lg-5 p-4">
               <div class="iconbox">
-                <i class="ri-stack-fill"></i>
+                <i class="ri-team-fill"></i>
               </div>
-              <h5 class="mt-4 mb-3">UX Design</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat at unde!</p>
+              <h5 class="mt-4 mb-3">Expert Team</h5>
+              <p>Count on our specialized team to make your dreams come true.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350">
             <div class="service theme-shadow p-lg-5 p-4">
               <div class="iconbox">
-                <i class="ri-stack-fill"></i>
+                <i class="ri-lightbulb-fill"></i>
               </div>
-              <h5 class="mt-4 mb-3">UX Design</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat at unde!</p>
+              <h5 class="mt-4 mb-3">Innovation</h5>
+              <p>We're always innovating to offer the best in exchange programs.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
             <div class="service theme-shadow p-lg-5 p-4">
               <div class="iconbox">
-                <i class="ri-stack-fill"></i>
+                <i class="ri-pencil-fill"></i>
               </div>
-              <h5 class="mt-4 mb-3">UX Design</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat at unde!</p>
+              <h5 class="mt-4 mb-3">Personalized Service</h5>
+              <p>Every intricate detail is carefully planned for you</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
             <div class="service theme-shadow p-lg-5 p-4">
               <div class="iconbox">
-                <i class="ri-stack-fill"></i>
+                <i class="ri-global-fill"></i>
               </div>
-              <h5 class="mt-4 mb-3">UX Design</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat at unde!</p>
+              <h5 class="mt-4 mb-3">Global Network</h5>
+              <p>Access our extensive network for unique opportunities.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="650">
             <div class="service theme-shadow p-lg-5 p-4">
               <div class="iconbox">
-                <i class="ri-stack-fill"></i>
+                <i class="ri-book-open-fill"></i>
               </div>
-              <h5 class="mt-4 mb-3">UX Design</h5>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugiat at unde!</p>
+              <h5 class="mt-4 mb-3">Cultural Immersion</h5>
+              <p>Experience the world like a local with our cultural programs.</p>
             </div>
           </div>
         </div>
@@ -195,19 +196,19 @@
     <section id="counter" class="section-padding">
       <div class="container text-center">
         <div class="row g-4">
-          <div class="col-lg-3 col-sm-6">
-            <h1 class="display-4 text-white">90,00+</h1>
-            <h6 class="text-uppercase text-white mt-3">Total Downloads</h6>
+          <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+            <h1 class="display-4 text-white">10+</h1>
+            <h6 class="text-uppercase text-white mt-3">Years of Experience</h6>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <h1 class="display-4 text-white">58k</h1>
-            <h6 class="text-uppercase text-white mt-3">trusted Clients</h6>
+          <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+            <h1 class="display-4 text-white">5000+</h1>
+            <h6 class="text-uppercase text-white mt-3">Happy Travelers</h6>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <h1 class="display-4 text-white">5M</h1>
-            <h6 class="text-uppercase text-white mt-3">themes Designed</h6>
+          <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="350">
+            <h1 class="display-4 text-white">50+</h1>
+            <h6 class="text-uppercase text-white mt-3">Destinations Covered</h6>
           </div>
-          <div class="col-lg-3 col-sm-6">
+          <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="450">
             <h1 class="display-4 text-white">100+</h1>
             <h6 class="text-uppercase text-white mt-3">Team Members</h6>
           </div>
@@ -218,15 +219,15 @@
     <!-- PORTFOLIO -->
     <section id="portfolio" class="section-padding">
       <div class="container">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
           <div class="section-title">
-            <h1 class="display-4 fw-semibold">Our Porfolio</h1>
+            <h1 class="display-4 fw-semibold">Discover Canada</h1>
             <div class="line"></div>
-            <p>We love to craft digital experiances for brands rather than crap and m,ore lorem ipsums and do crazy skills</p>
+            <p>Explore the beauty of Canada through our curated gallery and get inspired for your next adventure.</p>
           </div>
         </div>
         <div class="row g-4">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
             <div class="portfolio-item image-zoom">
               <div class="image-zoom-warpper">
                 <img src="assets/images/project-1.jpg" alt="">
@@ -240,7 +241,7 @@
               <a href="./assets/images/project-2.jpg" class="iconbox"><i class="ri-search-2-line"></i></a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
             <div class="portfolio-item image-zoom">
               <div class="image-zoom-warpper">
                 <img src="assets/images/project-3.jpg" alt="">
@@ -254,7 +255,7 @@
               <a href="./assets/images/project-4.jpg" class="iconbox"><i class="ri-search-2-line"></i></a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
             <div class="portfolio-item image-zoom">
               <div class="image-zoom-warpper">
                 <img src="assets/images/project-5.jpg" alt="">
@@ -273,17 +274,344 @@
     </section>
 
     <!-- REVIEW -->
-    <section id="reviews" class="section-padding">
-      <div class="col-12 text-center">
-        <div class="section-title">
-          <h1 class="display-4 fw-semibold">Testimonial</h1>
-          <div class="line"></div>
-          <p>We love to craft digital experiances for brands rather than crap and m,ore lorem ipsums and do crazy skills</p>
+    <section id="reviews" class="section-padding bg-light">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+                  <div class="section-title">
+                      <h1 class="display-4 fw-semibold">Who went, recommends</h1>
+                      <div class="line"></div>
+                      <p>See what our travelers have to say about their unforgettable experiences with Neo Voyage.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="row gy-5 gx-4">
+              <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                  <div class="review">
+                      <div class="review-head p-4 bg-white theme-shadow">
+                          <div class="text-warning">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                          </div>
+                          <p>Joining Neo Voyages for the volunteer program in Canada was transformative! The support and opportunities they provided made it an unforgettable experience. I truly felt a part of something meaningful.</p>
+                      </div>
+                      <div class="review-person mt-4 d-flex align-items-center">
+                          <img class="rounded-circle" src="./assets/images/avatar-1.jpg" alt="">
+                          <div class="ms-3">
+                              <h5>Renan S.</h5>
+                              <small>Volunteer</small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+                  <div class="review">
+                      <div class="review-head p-4 bg-white theme-shadow">
+                          <div class="text-warning">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                          </div>
+                          <p>Neo Voyages' Work & Travel program opened new doors for me in Canada! The job placement was perfect and the travel experiences were once in a lifetime. A fantastic way to explore and work!</p>
+                      </div>
+                      <div class="review-person mt-4 d-flex align-items-center">
+                          <img class="rounded-circle" src="./assets/images/avatar-2.jpg" alt="">
+                          <div class="ms-3">
+                              <h5>Eduardo Pavanelli</h5>
+                              <small>Work & Travel</small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="350">
+                  <div class="review">
+                      <div class="review-head p-4 bg-white theme-shadow">
+                          <div class="text-warning">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-line"></i>
+                          </div>
+                          <p>The internship program with Neo Voyages was a career game-changer. The extensive hands-on experience and networking opportunities in Canada were beyond my expectations. Absolutely perfect for acquiring real-world skills!</p>
+                      </div>
+                      <div class="review-person mt-4 d-flex align-items-center">
+                          <img class="rounded-circle" src="./assets/images/avatar-3.jpg" alt="">
+                          <div class="ms-3">
+                              <h5>Pedro Henrique</h5>
+                              <small>Internship</small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="450">
+                  <div class="review">
+                      <div class="review-head p-4 bg-white theme-shadow">
+                          <div class="text-warning">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-line"></i>
+                          </div>
+                          <p>My time volunteering in Canada through Neo Voyages was incredibly rewarding. They ensured a smooth process and a fulfilling engagement with the community. Highly recommend!</p>
+                      </div>
+                      <div class="review-person mt-4 d-flex align-items-center">
+                          <img class="rounded-circle" src="./assets/images/avatar-4.jpg" alt="">
+                          <div class="ms-3">
+                              <h5>Nicole Souza</h5>
+                              <small>Volunteer</small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="550">
+                  <div class="review">
+                      <div class="review-head p-4 bg-white theme-shadow">
+                          <div class="text-warning">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-line"></i>
+                          </div>
+                          <p>Thanks to Neo Voyages, I could balance work and travel seamlessly in Canada. The program was well-organized, offering both professional growth and adventure. Couldn’t have asked for more!</p>
+                      </div>
+                      <div class="review-person mt-4 d-flex align-items-center">
+                          <img class="rounded-circle" src="./assets/images/avatar-5.jpg" alt="">
+                          <div class="ms-3">
+                              <h5>Heloise Martins</h5>
+                              <small>Work & Travel</small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="650">
+                  <div class="review">
+                      <div class="review-head p-4 bg-white theme-shadow">
+                          <div class="text-warning">
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-fill"></i>
+                              <i class="ri-star-half-line"></i>
+                          </div>
+                          <p>Securing an internship in Canada through Neo Voyages was the best decision for my professional development. The guidance and exposure I received were top-notch. Absolutely recommend it!</p>
+                      </div>
+                      <div class="review-person mt-4 d-flex align-items-center">
+                          <img class="rounded-circle" src="./assets/images/avatar-6.jpg" alt="">
+                          <div class="ms-3">
+                              <h5>Isabella Zanelli</h5>
+                              <small>Internship</small>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section id="team" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Top Destinations</h1>
+              <div class="line"></div>
+              <p>Explore our most sought-after destinations and start planning your adventure.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4 text-center ">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-warpper">
+                <img src="./assets/images/gallery-vancouver.jpg" alt="">
+              </div>
+              <div class="team-member-content">
+                <h4 class="text-white">Vancouver</h4>
+                <p class="mb-0 text-white">Click Here To Know More</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-warpper">
+                <img src="./assets/images/gallery-toronto.jpg" alt="">
+              </div>
+              <div class="team-member-content">
+                <h4 class="text-white">Toronto</h4>
+                <p class="mb-0 text-white">Click Here To Know More</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-warpper">
+                <img src="./assets/images/gallery-montreal.jpg" alt="">
+              </div>
+              <div class="team-member-content">
+                <h4 class="text-white">Montreal</h4>
+                <p class="mb-0 text-white">Click Here To Know More</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- CONTACT -->
+    <section class="section-padding bg-light" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+            <div class="section-title">
+              <h1 class="display-4 text-white fw-semibold">Take the first step to come to Canada!</h1>
+              <div class="line bg-white"></div>
+              <p class="text-white">Contact us today and take the first step towards your Canadian adventure!</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="250">
+          <div class="col-lg-8">
+            <form action="#" class="row g-3 p-lg-5 p-4 bg-white theme-shadow">
+              <div class="form-group col-lg-6">
+                <input type="text" class="form-control" placeholder="Enter first name">
+              </div>
+              <div class="form-group col-lg-6">
+                <input type="text" class="form-control" placeholder="Enter last name">
+              </div>
+              <div class="form-group col-lg-12">
+                <input type="email" class="form-control" placeholder="Enter Email address">
+              </div>
+              <div class="form-group col-lg-12">
+                <input type="text" class="form-control" placeholder="Enter the program">
+              </div>
+              <div class="form-group col-lg-12">
+                <textarea name="message" rows="5" class="form-control" placeholder="Enter a Message"></textarea>
+              </div>
+              <div class="form-group col-lg-12 d-grid">
+                <button class="btn btn-brand">Let's go to Canadá! <i cla></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="150">
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Program Types</h1>
+              <div class="line"></div>
+              <p>Explore our diverse program offerings tailored to your goals and interests.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="150">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-warpper">
+                <img src="./assets/images/blog-post-1.jpg" alt="">
+              </div>
+              <h5 class="mt-4">Volunteer</h5>
+              <p>Engage in meaningful opportunities abroad.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-warpper">
+                <img src="./assets/images/blog-post-2.jpg" alt="">
+              </div>
+              <h5 class="mt-4">Work & Travel </h5>
+              <p> Experience Canada while gaining valuable work experience.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
+            <div class="team-member image-zoom">
+              <div class="image-zoom-warpper">
+                  <img src="./assets/images/blog-post-3.jpg" alt="">
+              </div>
+              <h5 class="mt-4">Internship</h5>
+              <p> Elevate your career with hands-on experience in your field.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-3 col-sm-6">
+              <a href="#"><img src="./assets/images/logo-white.png"  alt=""></a>
+              <div class="line"></div>
+                <p>Your adventure begins here</p>
+                <div class="social-icons">
+                  <a target="_blank" href="https://twitter.com/renansilvadev"><i class="ri-twitter-fill"></i></a>
+                  <a target="_blank" href="#"><i class="ri-instagram-fill"></i></a>
+                  <a target="_blank" href="https://github.com/renansouz"><i class="ri-github-fill"></i></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/renansilvadev/"><i class="ri-linkedin-fill"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h5 class="mb-0 text-white">PROGRAMS</h5>
+              <div class="line"></div>
+              <ul><a href="#">Volunteer</a></ul>
+              <ul><a href="#">Work & Travel</a></ul>
+              <ul><a href="#">Internship</a></ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h5 class="mb-0 text-white">ABOUT</h5>
+              <div class="line"></div>
+              <ul><a href="#">blog</a></ul>
+              <ul><a href="#">services</a></ul>
+              <ul><a href="#">company</a></ul>
+              <ul><a href="#">Carrer</a></ul>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <h5 class="mb-0 text-white">CONTACT</h5>
+              <div class="line"></div>
+              <ul>(11) 9 5618 - 7511</ul>
+              <ul>www.NeoVoyage.com</ul>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row g-4 justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">&copy; Copyright Neo Voyage. All Rights Reserved</p>
+            </div>
+            <div class="col-auto">
+              <p class="mb-0">Designed By <a href="#">RENAN</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
