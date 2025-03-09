@@ -1,6 +1,6 @@
 # Neo Voyage - Exchange Agency ✈️
 <img src="https://i.imgur.com/yyHDeUw.jpeg">
-Neo Voyage is a responsive website designed to facilitate exchange experiences in Canada. With a focus on expert guidance and comprehensive support, Neo Voyage aims to make the journey seamless for travelers seeking to explore the best destinations in Canada.
+Neo Voyage is a responsive website designed to facilitate exchange experiences in Canada. With a focus on expert guidance and comprehensive support, Neo Voyage aims to make the journey seamless for travelers seeking to explore the best destinations in Canada
 
 ## Access the Website
 Visit [Neo Voyage Exchange Agency](https://neo-voyage.vercel.app/) to explore the website.
